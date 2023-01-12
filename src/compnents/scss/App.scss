@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+$col-light: #e9eef2;
+$col-blue-light: #78a6c8;
+$col-blue-dark: #326789;
+$col-red-light: #e65c4f;
+$col-red-dark: #fadedc;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $col-light;
+  background-color: #f1f1f1;
+  font-family: "Nunito", sans-serif;
+}
+
+.grid-container {
+  max-width: 120rem;
+  height: 90vh;
+  margin: 5rem auto;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  overflow-x: hidden;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 10rem 1fr 1fr;
+
+  grid-template-areas: "searchBar searchBar" "videoDetail videoList";
+
+  @media only screen and (max-width: 900px) {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+}
