@@ -5,3 +5,6 @@ This project is a video and music streaming application built with React. Users 
 This is one of my first projects in React, first i used class-based components, leter i recreate into function component and state management is handled with the useState and useRef hooks.
 
 This project was a great opportunity for me to dive into the world of React. I am excited to continue learning and utilizing this powerful framework to discover its full potential and to create complex applications.
+
+
+LIVE : https://petar-marincic-playtube.netlify.app/
